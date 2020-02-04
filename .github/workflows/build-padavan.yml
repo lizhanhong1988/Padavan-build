@@ -87,10 +87,10 @@ jobs:
         echo "CONFIG_FIRMWARE_ENABLE_EXT3=y" >> .config
         echo "CONFIG_FIRMWARE_ENABLE_FAT=y" >> .config
         echo "CONFIG_FIRMWARE_ENABLE_EXFAT=y" >> .config
-        echo "CONFIG_FIRMWARE_ENABLE_EXT4=y" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_CIFS=y" >> .config
+        #echo "CONFIG_FIRMWARE_ENABLE_EXT4=y" >> .config
+        #echo "CONFIG_FIRMWARE_INCLUDE_CIFS=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_NTFS_3G=y" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_SMBD=y" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_ARIA=n" >> .config
         #########################################################################################
         #自定义添加其它功能请参考源码configs/templates/目录下的config文件。按照上面的格式添加即可
         #格式如下：
